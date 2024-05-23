@@ -1,0 +1,10 @@
+<template>
+	<c-common-toast></c-common-toast>
+	<lightning-tree-grid
+		columns={gridColumns}
+		data={gridData}
+		onrowselection={setSelectedRows}
+		selected-rows={selectedRows}
+		key-field="Id">
+	</lightning-tree-grid>
+</template>
